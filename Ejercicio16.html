@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Ejercicio16</title>
+	</head>
+	
+	<body>
+		<div id="contenedor">
+			
+			<div id="cabecera">
+				
+				<h1>Información sobre el producto</h1>
+
+			</div>
+		
+
+			<div id="cuerpo">
+				
+				<fieldset>
+					
+					<legend>Datos basicos</legend> <br/>
+					<label for="nombre">Nombre</label><br/>
+					<input size= type="text" name="nombre" value=""  id="nombre"/>
+
+					<br/>
+
+					<label for="descripcion">Descripción</label><br/>
+					<textarea id="descripcion" name="descripcion" cols="40" rows="10">
+					</textarea>
+					<br/>
+
+					<label for="foto">Foto</label>
+					<input type="file" name="adjunto" /><br/><br/>
+
+					<input name="boletín_novedades" type="checkbox" value="direccion"/> Añadir contador de visitas<br/><br/>
+				</fieldset>
+
+				<fieldset>
+					
+					<legend>Datos económicos</legend><br/>
+					<label for="precio">Precio</label>
+					<input size= type="text" name="precio" value=""  id="precio"/>
+					<span>€</span>&nbsp;&nbsp;
+					
+					<label for="impuestos">Impuestos</label>
+					<select id="impuestos" name="impuestos">
+						<option value="4%" selected="4%">4%</option>
+						<option value="7%">7%</option>
+						<option value="16%">16%</option>
+						<option value="25%">25%</option>
+					</select>
+					<br/>
+					<br/>
+
+					<label for="promocion">Promoción</label> <br/>
+					<input type="radio" name="ninguno" value="ninguno" checked="checked"/>Ninguno<br/>
+					<input type="radio" name="transporte" value="transporte" />Transporte gratuito<br/>
+					<input type="radio" name="descuento" value="descuento" />Descuento 5%<br/>
+				</fieldset>
+			</div>
+
+			<div id="pie">
+			</div>
+
+		</div>
+	</body>
+</html>
