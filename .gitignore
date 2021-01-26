@@ -1,0 +1,9 @@
+private/
+
+*.class
+
+*.log
+public.log
+
+*.zip
+*.rar
